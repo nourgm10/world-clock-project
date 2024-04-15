@@ -24,6 +24,10 @@ select {
   margin: 0 auto 40px;
 }
 
+select:focus {
+  outline: none;
+}
+
 footer {
   color: #666666;
   font-size: 12px;
@@ -91,5 +95,4 @@ footer {
 
 .time small {
   font-size: 15px;
-  margin-left: -3px;
 }
