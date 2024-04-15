@@ -4,48 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>World Clock - Nour Ghallale</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Test World Clock</title>
   </head>
   <body>
-    <div class="container">
-      <h1>World Clock</h1>
+    <div class="world-clock">
+      <div class="head">
+        <h1>World Clock</h1>
+        <h1 class="icon">🕝</h1>
+      </div>
       <select name="choose-city" id="choose-city">
         <option value="">Choose a city</option>
         <option value="paris">Paris</option>
         <option value="brussels">Brussels</option>
-        <option value="los-angeles">Los Angeles</option>
+        <option value="london">London</option>
       </select>
-      <div class="city">
-        <h2>Paris</h2>
-        <div class="date">April 15th, 20243</div>
-        <div class="time">11:01 AM</div>
-      </div>
-      <div class="city">
-        <h2>Brussels</h2>
-        <div class="date">April 15th, 20243</div>
-        <div class="time">11:01 AM</div>
+      <div class="city-block">
+        <div class="city">
+          Paris
+          <div class="date">April 15th, 2024</div>
+        </div>
+        <div class="time">01:45 PM</div>
       </div>
     </div>
-    <footer>
-      <span class="footer-text">This project was coded by</span>
-      <a href="https://github.com/nourgm10" target="_blank" class="footer-links"
-        >Nour Ghallale</a
-      >
-      <span class="footer-text">, is open-sourced on</span>
-      <a
-        href="https://github.com/nourgm10/world-clock-project"
-        target="_blank"
-        class="footer-links"
-        >GitHub</a
-      >
-      <span class="footer-text">and hosted on</span>
-      <a
-        href="https://nours-world-clock.netlify.app/"
-        target="_blank"
-        class="footer-links"
-        >Netlify</a
-      >
-    </footer>
+
     <script src="javascript/index.js"></script>
   </body>
 </html>
