@@ -7,6 +7,10 @@ body {
 
 h1 {
   font-weight: 500;
+  font-size: 35px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 select {
@@ -17,11 +21,11 @@ select {
   color: #ffffff;
   font-family: "Rubik", sans-serif;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 90%;
   border-radius: 6px;
   display: block;
-  margin: 0 auto 40px;
+  margin: 0 auto 60px;
 }
 
 select:focus {
@@ -43,6 +47,10 @@ footer {
   font-weight: 500;
 }
 
+.icon {
+  font-size: 50px;
+}
+
 .world-clock {
   background: linear-gradient(150deg, rgb(60, 60, 60) 0%, rgb(27, 27, 27) 100%);
   box-shadow: inset 0px 5px 7px 2px rgba(95, 95, 95, 0.5),
@@ -54,8 +62,8 @@ footer {
   margin: 50px auto;
   margin-top: 60px;
   padding: 20px;
-  height: 600px;
-  width: 400px;
+  height: 345px;
+  width: 450px;
 }
 
 .head {
@@ -64,7 +72,7 @@ footer {
   margin: 0 20px 10px 20px;
 }
 
-.city-block {
+#city-block {
   border: none;
   border-radius: 10px;
   background: linear-gradient(150deg, rgb(60, 60, 60) 0%, rgb(27, 27, 27) 100%);
