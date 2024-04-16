@@ -3,7 +3,6 @@ function updateTime(cityTimeZone) {
   let timeElement = document.querySelector(".time");
 
   if (!cityTimeZone) {
-    // If cityTimeZone is an empty string, use the guessed timezone
     cityTimeZone = moment.tz.guess();
   }
 
